@@ -1,6 +1,6 @@
 FROM composer:2.8.10 AS composer-bin
 
-FROM php:8.3.24-cli-bookworm
+FROM php:8.5.9-cli-bookworm
 
 ARG LARAVEL_SKELETON_URL="https://github.com/laravel/laravel/archive/refs/tags/v13.8.0.tar.gz"
 ARG LARAVEL_SKELETON_SHA256="d32991650cb93458a935aa309ecd7258f237a5f21519225efd367125af2b14c7"
