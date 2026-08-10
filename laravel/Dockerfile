@@ -1,4 +1,4 @@
-FROM composer:2.8.10 AS composer-bin
+FROM composer:2.10.2 AS composer-bin
 
 FROM php:8.3.24-cli-bookworm
 
