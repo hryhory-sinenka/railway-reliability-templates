@@ -1,4 +1,4 @@
-FROM python:3.12.11-slim-bookworm
+FROM python:3.15.0-slim-bookworm
 
 ARG NANOBOT_WHEEL_URL="https://files.pythonhosted.org/packages/e0/87/767aeb88ff044da112fb86ffdb92a1f98f79904dc91359ea280297901a8b/nanobot_ai-0.2.2-py3-none-any.whl#sha256=3f71011e2b0b5f97f2480151d013ed167b2163a4d92913d8e00aceafc648a82e"
 
