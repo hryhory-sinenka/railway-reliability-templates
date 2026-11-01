@@ -1,4 +1,4 @@
-FROM python:3.11.13-slim-bookworm
+FROM python:3.15.0-slim-bookworm
 
 ARG REDBOT_WHEEL_URL="https://files.pythonhosted.org/packages/00/b2/a5f5c3ec9e61c26c6e792bc041586f1b5e78f8b5412d88d9877304b36062/red_discordbot-3.5.24-py3-none-any.whl#sha256=3cbdbdd8bb0b6dbab1f5f909151f12dcd40798b06df8beb791fd22b9e1b2c8bd"
 
